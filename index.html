@@ -11,7 +11,6 @@
 
 <!-- nav bar -->
 <nav class="shadow-xl sticky top-0 z-10 bg-slate-500">
-    
         <div class=" container mx-auto">
             <div class="sm:flex items-center justify-between">
                 <div class="border-b sm:border-none  pb-3">
@@ -31,24 +30,21 @@
 </nav>
 <!-- header section -->
 <header class="mb-52">
-    <div class="container mx-auto h-[80vh] border border-red-600 sm:flex justify-around text-center items-center  border-t-0 px-14 pt-16">
+    <div class="container mx-auto h-[80vh] border border-red-600 sm:flex justify-around text-center items-center        border-t-0 px-14 pt-16">
         <div class="text-white text-center">
             <h1 class="text-2xl sm:text-5xl font-bold ">Smart Coaders:learn <br> Programming</h1>
             <button class="shadow-2xl rounded-full bg-blue-600 p-3 text-md hover:bg-green-500 transition mt-8 ">Join : Programming Shikbo's Team <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline-block text-red-500  animate-ping">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
               </svg></button>
-        </div>
-    
-         
-        <img src="img/IMG_20211231_204043.jpg" alt="" srcset="" class="h-[50vh] animate-pulse">
-       
+        </div>         
+        <img src="img/IMG_20211231_204043.jpg" alt="" srcset="" class="h-[50vh] animate-pulse">       
     </div>
 </header>
 <!-- main section -->
 <main  class="my-24">
     <h1 class="text-4xl text-white font-bold mb-24 text-center underline underline-offset-8">Our Service</h1>
   <!-- sectio p-I -->
-    <section class="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-10">          
+    <section class="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 sm:text-sm gap-10">          
         
         <div class=" bg-slate-950 border-4 border-[#020617] hover:border-purple-700 shadow-lg rounded-xl">
             <div class="">
@@ -97,12 +93,12 @@
     </section>
 <!-- section p-II -->
     <section class="container mx-auto bg-[#0F172D] shadow-2xl py-16 mt-20 px-10">
-        <div class="text-white flex mt-24 justify-between">
+        <div class="text-white sm:flex mt-24 justify-between">
             <div>
                 <h1 class="text-3xl text-yellow-500 animate-bounce text-center pb-6 ">My Clints</h1>
-                <h3 class="text-4xl text-center">My Take Care of <br> more <span class="underline underline-offset-8">than 500k</span> <br> Customers</h3>
+                <h3 class="text-4xl text-center sm:mb-4 sm:text-xl">My Take Care of <br> more <span class="underline underline-offset-8">than 500k</span> <br> Customers</h3>
             </div>
-            <div class=" grid sm:grid-cols-2 md:grid-cols-3 gap-5 text-center items-center">
+            <div class=" grid sm:grid-cols-2 md:grid-cols-3 gap-5 text-center items-center place-content-center">
                 <div>
                     <img src="img/p 1.png" alt="" class="h-[5vh] border-4  border-[#0F172D] hover:border-red-500">
                     <h3>ONE PLUS</h3>
@@ -142,11 +138,75 @@
             </div>
         </div>
     </section>
+    <!-- section p-III -->
+    <section class="bg-[#020617] py-20 sm:py-24 container mx-auto my-24">
+        <div>
+            <h3 class="text-2xl sm:text-5xl text-center text-white mt-16 sm:mt-28">Ask a Question</h3>
 
+            <form>
+                <input type="email" class="block mx-auto px-4 sm:px-6 py-2 sm:py-4 w-5/6 sm:w-1/2 mt-10 sm:mt-16 placeholder:text-red-300 placeholder:italic" placeholder="Your Email">
+
+                <textarea class="block mx-auto px-4 sm:px-6 py-4 sm:py-6 w-5/6 sm:w-1/2 h-32 sm:h-56 mt-10 sm:mt-16 placeholder:text-red-300 placeholder:italic" placeholder="Your Question"></textarea>
+
+                <button class="block mx-auto mt-10 sm:mt-16 bg-green-800 text-white rounded-md px-3 py-2 border-4 border-[#020617] hover:border-pink-600 hover:bg-green-500 ">Send Now</button>
+            </form>
+        </div>
+    </section>
+<!-- section p-IV -->
+    <section class="container mx-auto bg-slate-950">
+        <div class="grid sm:grid-cols-3 p-10 sm:p-16 gap-10 sm:gap-16">
+            <div class="border p-10">
+                <div class="text-white ">
+                    <h4>Basic Plant</h4>
+                    <h2>$<span class="text-xl sm:text-2xl md:text-5xl cursor-pointer font-bold">19.00</span>/month</h2>
+                    <hr class="my-6">
+                    <ul class="list-disc list-inside leading-8">
+                        <li>500 user actives</li>
+                        <li>Unlimited Access</li>
+                        <li>No Hidden Change</li>
+                        <li>03 times Update</li>
+                        <li>Figma Source File</li>
+                        <li>Many More Facilities</li>
+                    </ul>
+                    <button class="bg-green-700 py-2 px-4 text-xl block mx-auto mt-10 hover:bg-green-400 hover:font-bold transition">Purchase</button>
+                </div>
+            </div>
+            <div class="border p-10">
+                <div class="text-white">
+                    <h4>Basic Plant</h4>
+                    <h2>$<span class="text-xl sm:text-2xl md:text-5xl cursor-pointer font-bold">19.00</span>/month</h2>
+                    <hr class="my-6">
+                    <ul class="list-disc list-inside leading-8">
+                        <li>500 user actives</li>
+                        <li>Unlimited Access</li>
+                        <li>No Hidden Change</li>
+                        <li>03 times Update</li>
+                        <li>Figma Source File</li>
+                        <li>Many More Facilities</li>
+                    </ul>
+                    <button class="bg-green-700 py-2 px-4 text-xl block mx-auto mt-10 hover:bg-green-400 hover:font-bold transition">Purchase</button>
+                </div>
+            </div>
+            <div class="border p-10">
+                <div class="text-white">
+                    <h4>Basic Plant</h4>
+                    <h2>$<span class="text-xl sm:text-2xl md:text-5xl cursor-pointer font-bold">19.00</span>/month</h2>
+                    <hr class="my-6">
+                    <ul class="list-disc list-inside leading-8">
+                        <li>500 user actives</li>
+                        <li>Unlimited Access</li>
+                        <li>No Hidden Change</li>
+                        <li>03 times Update</li>
+                        <li>Figma Source File</li>
+                        <li>Many More Facilities</li>
+                    </ul>
+                    <button class="bg-green-700 py-2 px-4 text-xl block mx-auto mt-10 hover:bg-green-400 hover:font-bold transition">Purchase</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
-
 <!-- footer section -->
-
 <footer>
 
 </footer>
